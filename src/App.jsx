@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="bg-[#f5f5f5] font-light text-[#111]">
       <Notes />
-      <Info name="Jillian Britney Q. Oledan" />
+      <Info name="Jillian Britney Oledan" />
     </div>
   )
 }
