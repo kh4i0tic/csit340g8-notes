@@ -121,13 +121,6 @@ function Notes() {
                 body={note.body}
                 onDelete={handleDelete}
               />
-              <button
-                type="button"
-                className="absolute top-4 right-5 cursor-pointer text-[26px] leading-none text-[#949494] hover:text-[#c18585]"
-                onClick={() => handleDelete(note.id)}
-              >
-                ×
-              </button>
             </li>
           ))}
         </ul>
